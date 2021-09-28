@@ -20,7 +20,7 @@
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Bootstrap Mastery</a>
+        <a class="navbar-brand" href="index.html">Bootstrap Griddle</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
                 <li class="nav-item">
-                    <a class="nav-link active" href="/index.html">Home</a>
+                    <a class="nav-link" href="/index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/Grid1.html">Grid 1</a>
@@ -63,8 +63,28 @@
 </nav>
 
     <main class="flex-shrink-0">
-       <div class="container">
-           <h1 class="mt-5">Grid Three</h1>
+       <div class="container h-100 minheight">
+           <h1 class="">Grid Three</h1>
+           <div class="row h-100">
+               <!--Left Column-->
+             <div class="col-7">
+                 <div class="p-2 bg-secondary text-light">
+                     Col Left
+                 </div>
+                 </div>
+                 <!--Right Column-->
+                 <div class="col-5 d-flex flex-column h-100 justify-content-evenly">
+                 <div class="h-50 bg-secondary text-light ps-3"> 
+                    Col Right
+                 </div>
+                    <div class="h-50" bg-dark text-light ps-2>
+                        <div>Col Right Bottom</div>
+                         <div class="bg-dark border-top border-light border-1 mt-2 p-2"> 
+                     <button type="button" class="btn btn-light">Read More</button>
+                 </div>                   
+               </div>
+               </div> 
+           </div>
        </div>
     </main>
     <footer class="footer mt-auto py-3 bg-light sticky-footer">

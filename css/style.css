@@ -9,3 +9,23 @@
            bottom: 0;
            width: 100%;
        }
+
+.minheight{
+    min-height: 80vh;
+}
+
+       .heroText{
+           font-family: modesto-open-shadow, sans-serif;
+           font-family: 'Rampart One', sans-serif;
+           text-transform: uppercase;
+           font-weight: 500;
+           font-style: normal;
+           color: rgb(149, 149, 50);
+       }
+       .bgImage{
+           background-image: url("/img/Vaporwave.png") ;
+           background-repeat: none;
+           background-position: center;
+           background-size: cover;
+           background-attachment: fixed;
+       }

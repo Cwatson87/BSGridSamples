@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>Bootstrap Mastery</title>
+    <title>Bootstrap Griddle</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,7 +20,7 @@
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Bootstrap Mastery</a>
+        <a class="navbar-brand" href="index.html">Bootstrap Griddle</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -63,12 +63,17 @@
 </nav>
 
     <main class="flex-shrink-0">
-       <div class="container">
-           <h1 class="mt-5">Grid One</h1>
+       <div class="container minheight h-100 mb-5">
+           <h1 class="">Grid One</h1>
+           <div class="row h-100 border border-3 border-danger gy-2 gx-3">
+               <div class="col">COL ONE</div>
+               
+               <div class="col bg-dark text-white h-100">COL TWO</div>
+           </div>
        </div>
     </main>
     <footer class="footer mt-auto py-3 bg-light sticky-footer">
-        <div class="container-fluid text-center">
+        <div class="container-fluid text-center bg-dark text-white">
             <span class="text-muted">&copy;&nbsp; Cameron Watson 2021.</span>
         </div>
     </footer>
