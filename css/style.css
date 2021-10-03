@@ -1,11 +1,29 @@
+ main>.container{
+         padding: 60px 15px 0;
+         margin-bottom: 5rem;
+     }
 
-       main>.container {
-           padding: 60px 15px 0;
-           margin-bottom: 5rem;
-       }
-       .sticky-nav {
-           position: fixed;
-           left: 0;
-           bottom: 0;
-           width: 100%;
-       }
+     .sticky-nav {
+         position: fixed;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+     }
+
+     .heroText {
+         font-family: modesto-open-shadow, sans-serif;
+         font-weight: 500;
+         color: rgb(226, 188, 17);
+     }
+
+     .minheight {
+         min-height: 75vh;
+     }
+
+     .bgImage {
+         background-image: url('/img/Vaporwave.png');
+         background-repeat: none;
+         background-size: cover;
+         background-position: center;
+         background-attachment: fixed;
+     }
